@@ -11,14 +11,14 @@ app.get('/', (c) => {
       <div class="flex items-center gap-4">
         <button
           data-action="click->counter#decrement"
-          class="px-3 py-1 bg-gray-200 rounded hover:bg-gray-300"
+          class="px-3 py-1 bg-bg-secondary rounded hover:bg-border"
         >
           −
         </button>
         <span data-counter-target="count" class="text-xl font-mono">0</span>
         <button
           data-action="click->counter#increment"
-          class="px-3 py-1 bg-gray-200 rounded hover:bg-gray-300"
+          class="px-3 py-1 bg-bg-secondary rounded hover:bg-border"
         >
           +
         </button>
